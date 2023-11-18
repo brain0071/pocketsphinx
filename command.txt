@@ -1,0 +1,11 @@
+go
+back
+left
+right
+stop
+please
+apple
+tomato
+sandwich
+ok
+

@@ -1,0 +1,65 @@
+Language model created by QuickLM on Fri Nov 17 22:05:01 EST 2023
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 10 sentences and 12 words
+
+\data\
+ngram 1=12
+ngram 2=20
+ngram 3=10
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-1.7782 APPLE -0.2218
+-1.7782 BACK -0.2218
+-1.7782 GO -0.2218
+-1.7782 LEFT -0.2218
+-1.7782 OK -0.2218
+-1.7782 PLEASE -0.2218
+-1.7782 RIGHT -0.2218
+-1.7782 SANDWICH -0.2218
+-1.7782 STOP -0.2218
+-1.7782 TOMATO -0.2218
+
+\2-grams:
+-1.3010 <s> APPLE 0.0000
+-1.3010 <s> BACK 0.0000
+-1.3010 <s> GO 0.0000
+-1.3010 <s> LEFT 0.0000
+-1.3010 <s> OK 0.0000
+-1.3010 <s> PLEASE 0.0000
+-1.3010 <s> RIGHT 0.0000
+-1.3010 <s> SANDWICH 0.0000
+-1.3010 <s> STOP 0.0000
+-1.3010 <s> TOMATO 0.0000
+-0.3010 APPLE </s> -0.3010
+-0.3010 BACK </s> -0.3010
+-0.3010 GO </s> -0.3010
+-0.3010 LEFT </s> -0.3010
+-0.3010 OK </s> -0.3010
+-0.3010 PLEASE </s> -0.3010
+-0.3010 RIGHT </s> -0.3010
+-0.3010 SANDWICH </s> -0.3010
+-0.3010 STOP </s> -0.3010
+-0.3010 TOMATO </s> -0.3010
+
+\3-grams:
+-0.3010 <s> APPLE </s>
+-0.3010 <s> BACK </s>
+-0.3010 <s> GO </s>
+-0.3010 <s> LEFT </s>
+-0.3010 <s> OK </s>
+-0.3010 <s> PLEASE </s>
+-0.3010 <s> RIGHT </s>
+-0.3010 <s> SANDWICH </s>
+-0.3010 <s> STOP </s>
+-0.3010 <s> TOMATO </s>
+
+\end\
